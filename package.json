@@ -1,0 +1,21 @@
+{
+  "name": "you2spo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass -w sass -o public/css && node ./bin/www",
+    "watch": "nodemon --ignore public"
+  },
+  "author": "vinidotruan",
+  "license": "ISC",
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "express": "^4.17.1",
+    "livereload": "^0.9.1",
+    "nes.css": "^2.3.0",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
